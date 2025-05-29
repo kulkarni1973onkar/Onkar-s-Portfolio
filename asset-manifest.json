@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Onkar-s-Portfolio/static/css/main.75b1b8e4.css",
+    "main.js": "/Onkar-s-Portfolio/static/js/main.aa00e7b7.js",
+    "static/media/Portfolio.png": "/Onkar-s-Portfolio/static/media/Portfolio.1c20fd8e30a5524314c8.png",
+    "static/media/Project-3.jpg": "/Onkar-s-Portfolio/static/media/Project-3.7326807da487cf8fe1e8.jpg",
+    "static/media/Project-5.jpg": "/Onkar-s-Portfolio/static/media/Project-5.ca9ea8bea11b62465314.jpg",
+    "static/media/Project-4.jpg": "/Onkar-s-Portfolio/static/media/Project-4.c4c3852109904bb97512.jpg",
+    "static/media/Project-6.jpg": "/Onkar-s-Portfolio/static/media/Project-6.cd53991bd98f1be0fd45.jpg",
+    "static/media/logo.png": "/Onkar-s-Portfolio/static/media/logo.4578d06557d5d7ef0483.png",
+    "static/media/Project-2.jpg": "/Onkar-s-Portfolio/static/media/Project-2.e6c6cfaa4ac4594737e3.jpg",
+    "static/media/Project-1.png": "/Onkar-s-Portfolio/static/media/Project-1.7ae16b90cc4dd8efadd8.png",
+    "static/media/BackendImg.png": "/Onkar-s-Portfolio/static/media/BackendImg.fd2b500594ae97048d09.png",
+    "static/media/DatabaseImg.png": "/Onkar-s-Portfolio/static/media/DatabaseImg.24991eee32623f453b1c.png",
+    "static/media/github.png": "/Onkar-s-Portfolio/static/media/github.f91cdbfaf7829504b00e.png",
+    "static/media/SPPU.png": "/Onkar-s-Portfolio/static/media/SPPU.320ed9022ba0a0fefef3.png",
+    "static/media/ui-design.png": "/Onkar-s-Portfolio/static/media/ui-design.c4acd455fc2040eddcc8.png",
+    "static/media/instagram.png": "/Onkar-s-Portfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
+    "index.html": "/Onkar-s-Portfolio/index.html",
+    "main.75b1b8e4.css.map": "/Onkar-s-Portfolio/static/css/main.75b1b8e4.css.map",
+    "main.aa00e7b7.js.map": "/Onkar-s-Portfolio/static/js/main.aa00e7b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75b1b8e4.css",
+    "static/js/main.aa00e7b7.js"
+  ]
+}
