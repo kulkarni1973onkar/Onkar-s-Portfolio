@@ -1,0 +1,181 @@
+#contactPage {
+  min-height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.contactPageTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.contactSubtitle {
+  font-size: 1rem;
+  color: #bbb;
+  margin-bottom: 2rem;
+}
+
+/* My Skills (Clients) Section */
+.clientDesc {
+  font-weight: 300;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.clientGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.clientCard {
+  padding: 1rem 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.75rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.clientCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.1);
+}
+
+.clientImg {
+  object-fit: contain;
+  width: 8rem;
+  height: auto;
+}
+
+/* Contact Icons Section */
+.contactLinks {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.contactIconWrapper {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contactIconWrapper:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+}
+
+.contactIcon {
+  height: 3.5rem;
+  width: 3.5rem;
+  object-fit: cover;
+}
+
+/* Optional Contact Form Styles */
+.contactDesc {
+  padding: 1rem;
+  font-size: medium;
+  font-weight: 300;
+}
+
+.contactForm {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  max-width: 60rem;
+}
+
+.name, .email, .msg {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgb(40, 40, 40);
+}
+
+.submitBtn {
+  background: white;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 2rem;
+  padding: 0.75rem 3.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submitBtn:hover {
+  background: #ddd;
+}
+
+/* Navigation Styles */
+.mobMenu {
+  display: none;
+  object-fit: cover;
+  height: 1.8rem;
+}
+
+.navMenu {
+  position: absolute;
+  top: 4rem;
+  right: 2rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  height: fit-content;
+  min-width: 15rem;
+  background: rgb(40, 40, 40);
+  border-radius: 1rem;
+}
+
+.listItem {
+  color: white;
+  padding: 0.5rem 3rem;
+  margin: 0.25rem;
+  background: rgb(30, 30, 30);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.listItem:hover {
+  background: rgb(50, 50, 50);
+}
+
+/* Responsive */
+@media screen and (max-width: 720px) {
+  .mobMenu {
+    display: flex;
+  }
+
+  .desktopMenu,
+  .desktopMenuBtn {
+    display: none;
+  }
+
+  .clientGrid {
+    flex-direction: column;
+    align-items: center;
+  }
+}
