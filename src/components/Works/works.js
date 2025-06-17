@@ -44,7 +44,7 @@ const Works = () => {
                     </div>
                     <h3 className="worksHeading">Covid Test Management System</h3>
                     <p className="worksText">A web app for managing COVID-19 testing, registration, result tracking, and reporting to streamline workflows for clinics and health authorities.</p>
-                    <a href="https://github.com/kulkarni1973onkar/Smart-Medical-Services" target="_blank" rel="noopener noreferrer" className="viewBtn">View</a>
+                    <a href="https://github.com/kulkarni1973onkar/Covid-TMS-Covid-Test-Management-System-" target="_blank" rel="noopener noreferrer" className="viewBtn">View</a>
                 </div>
 
                 <div className="worksCard">
@@ -54,7 +54,7 @@ const Works = () => {
                     </div>
                     <h3 className="worksHeading">Smart Medical Services</h3>
                     <p className="worksText">A cross-platform system for booking, managing, and receiving real-time alerts for medical appointments and consultations with certified healthcare professionals.</p>
-                    <a href="https://github.com/kulkarni1973onkar/Covid-TMS-Covid-Test-Management-System-" target="_blank" rel="noopener noreferrer" className="viewBtn">View</a>
+                    <a href="https://github.com/kulkarni1973onkar/Smart-Medical-Services" target="_blank" rel="noopener noreferrer" className="viewBtn">View</a>
                 </div>
 
                 <div className="worksCard">
